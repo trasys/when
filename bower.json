@@ -1,6 +1,6 @@
 {
   "name": "when",
-  "version": "3.4.5",
+  "version": "3.4.5.1",
   "main": "when.js",
   "moduleType": ["amd", "node"],
   "description": "A lightweight Promises/A+ and when() implementation, plus other async goodies.",
@@ -13,11 +13,16 @@
   "ignore": [
     "**/.*",
     "**/*.md",
-    "docs",
     "benchmark",
+    "build",
+    "docs",
+    "es6-shim",
+    "lib",
+    "monitor",
+    "node",
     "node_modules",
-    "bower_components",
     "test",
-    "build"
+    "unfold",
+    "*.js"
   ]
 }
